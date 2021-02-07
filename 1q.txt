@@ -1,0 +1,25 @@
+Daemon Process
+A Process not under the direct control of the user and running as background service.
+
+init    The Unix program which spawns all other processes. As of 2016, for major Linux distributions, it has been replaced by systemd.[2]
+biod	Works in cooperation with the remote nfsd to handle client NFS requests.
+crond  	Time-based job scheduler, runs jobs in the background.
+dhcpd	Dynamically configure TCP/IP information for clients.
+fingerd	Provides a network interface for the finger protocol, as used by the finger command.
+ftpd	Services FTP requests from a remote system.
+httpd	Web server daemon.
+inetd	Listens for network connection requests. If a request is accepted, it can launch a background daemon to handle the request, was known as the super server for this reason. Some systems use the replacement command xinetd.
+lpd	The line printer daemon that manages printer spooling.
+nfsd	Processes NFS operation requests from client systems. Historically each nfsd daemon handled one request at a time, so it was normal to start multiple copies.
+ntpd	Network Time Protocol daemon that manages clock synchronization across the network. xntpd implements the version 3 standard of NTP.
+portmap/rpcbind:	Provides information to allow ONC RPC clients to contact ONC RPC servers
+sshd	Listens for secure shell requests from clients.
+
+swapper	Copies process regions to swap space in order to reclaim physical pages of memory for the kernel. Also called sched.
+syslogd	System logger process that collects various system messages.
+syncd	Periodically keeps the file systems synchronized with system memory.
+systemd	Replacement of init, the Unix program which spawns all other processes.
+xfsd	Serve X11 fonts to remote clients.
+vhand	Releases pages of memory for use by other processes. Also known as the "page stealing daemon"
+ypbind	Find the server for an NIS domain and store the information in a file.
+
